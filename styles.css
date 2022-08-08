@@ -34,9 +34,11 @@ body {
 }
 
 #image {
-    max-width: 400px;
-    height: 450px;
-    padding-bottom: 1em;
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding: .1em 2em;
 }
 
 #tribute-info {
@@ -63,6 +65,7 @@ body {
 }
 
 img {
+    display: block;
     margin: 0 auto;
 }
 
